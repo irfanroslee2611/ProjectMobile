@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrou"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.dev.androideasyfood.TableList"
+>
+
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnTable1"
+        android:text="Table 1"
+        app:buttonColor="@color/btnSignActive"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shadowColor="@android:color/black"
+        app:shadowHeight="5dp"
+        app:shadowEnabled="true"
+        app:cornerRadius="4dp"
+        android:layout_marginTop="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btnTable2"
+        android:layout_alignStart="@+id/btnTable2" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnTable2"
+        android:text="Table 2"
+        app:buttonColor="@color/btnSignUp"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shadowColor="@android:color/black"
+        app:shadowHeight="5dp"
+        app:shadowEnabled="true"
+        app:cornerRadius="4dp"
+        android:layout_below="@+id/btnTable1"
+        android:layout_marginTop="46dp" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnTable3"
+        android:text="Table 3"
+        app:buttonColor="@color/btnSignActive"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shadowColor="@android:color/black"
+        app:shadowHeight="5dp"
+        app:shadowEnabled="true"
+        app:cornerRadius="4dp"
+        android:layout_below="@+id/btnTable2"
+        android:layout_marginTop="46dp" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnTable4"
+        android:text="Table 4"
+        app:buttonColor="@color/btnSignUp"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shadowColor="@android:color/black"
+        app:shadowHeight="5dp"
+        app:shadowEnabled="true"
+        app:cornerRadius="4dp"
+        android:layout_below="@+id/btnTable3"
+        android:layout_marginTop="50dp" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnTable5"
+        android:text="Table 5"
+        app:buttonColor="@color/btnSignActive"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shadowColor="@android:color/black"
+        app:shadowHeight="5dp"
+        app:shadowEnabled="true"
+        app:cornerRadius="4dp"
+        android:layout_below="@+id/btnTable4"
+        android:layout_marginTop="50dp" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnTable6"
+        android:text="Table 6"
+        app:buttonColor="@color/btnSignUp"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shadowColor="@android:color/black"
+        app:shadowHeight="5dp"
+        app:shadowEnabled="true"
+        app:cornerRadius="4dp"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/btnTable5"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+</RelativeLayout>
